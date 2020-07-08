@@ -60,4 +60,11 @@ headerPic.setAttribute('src', siteContent["img"]["header-img"]);
 let hdrBtn = document.querySelector("button");
 hdrBtn.textContent = siteContent["cta"]["button"];
 
+let subHeaders = document.getElementsByTagName("h4");
+subHeaders[0].textContent = siteContent["main-content"]["features-h4"];
+subHeaders[1].textContent = siteContent["main-content"]["about-h4"];
+subHeaders[2].textContent = siteContent["main-content"]["services-h4"];
+subHeaders[3].textContent = siteContent["main-content"]["product-h4"];
+subHeaders[4].textContent = siteContent["main-content"]["vision-h4"];
+subHeaders[5].textContent = siteContent["contact"]["contact-h4"];
 
