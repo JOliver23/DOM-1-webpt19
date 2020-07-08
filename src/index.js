@@ -50,3 +50,6 @@ navBar[2].textContent = siteContent["nav"]["nav-item-3"];
 navBar[3].textContent = siteContent["nav"]["nav-item-4"];
 navBar[4].textContent = siteContent["nav"]["nav-item-5"];
 navBar[5].textContent = siteContent["nav"]["nav-item-6"];
+
+const title = document.querySelector("h1");
+title.textContent = siteContent["cta"]["h1"];
