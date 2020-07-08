@@ -100,7 +100,7 @@ const banner = document.createElement("div");
 banner.textContent = "^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^";
 banner.style.color = "dodgerblue";
 banner.style.width = "880px";
-banner.style.marginLeft = "18%";
+banner.style.margin = "auto";
 banner.style.backgroundColor = "black";
 
 webBody.prepend(banner);
