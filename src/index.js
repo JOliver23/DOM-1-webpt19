@@ -56,3 +56,8 @@ title.textContent = siteContent["cta"]["h1"];
 
 const headerPic = document.getElementById("cta-img");
 headerPic.setAttribute('src', siteContent["img"]["header-img"]);
+
+let hdrBtn = document.querySelector("button");
+hdrBtn.textContent = siteContent["cta"]["button"];
+
+
