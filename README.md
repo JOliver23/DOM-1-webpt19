@@ -12,16 +12,16 @@ You have been provided an [object](src/index.js) with all the necessary data to 
 
 **Follow these steps to set up and work on your project:**
 
-* [ ] Create a forked copy of this project.
-* [ ] Add your team lead as collaborator on Github.
-* [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-* [ ] Move into the project folder with the command line.
-* [ ] Run the command `npm install` to download project dependencies.
-* [ ] Run the command `npm start` to spin up a development server.
-* [ ] Navigate Chrome to `http://localhost:1234` to see your project. The port number might be different.
-* [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-* [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-* [ ] Push commits: git push origin `<firstName-lastName>`.
+* [x] Create a forked copy of this project.
+* [x] Add your team lead as collaborator on Github.
+* [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+* [x] Move into the project folder with the command line.
+* [x] Run the command `npm install` to download project dependencies.
+* [x] Run the command `npm start` to spin up a development server.
+* [x] Navigate Chrome to `http://localhost:1234` to see your project. The port number might be different.
+* [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+* [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+* [x] Push commits: git push origin `<firstName-lastName>`.
 
 **Follow these steps for completing your project.**
 
