@@ -78,3 +78,6 @@ subHeaderContent[5].textContent = siteContent["contact"] ["address"];
 subHeaderContent[6].textContent = siteContent["contact"] ["phone"];
 subHeaderContent[7].textContent = siteContent["contact"] ["email"];
 subHeaderContent[8].textContent = siteContent["footer"]["copyright"];
+
+const midImg = document.getElementById("middle-img");
+midImg.setAttribute('src', siteContent["img"]["mid-page-img"]);
