@@ -53,3 +53,6 @@ navBar[5].textContent = siteContent["nav"]["nav-item-6"];
 
 const title = document.querySelector("h1");
 title.textContent = siteContent["cta"]["h1"];
+
+const headerPic = document.getElementById("cta-img");
+headerPic.setAttribute('src', siteContent["img"]["header-img"]);
