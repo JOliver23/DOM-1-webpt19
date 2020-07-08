@@ -55,6 +55,7 @@ navBar.forEach(link => {
   link.style.color = "green";
 });
 
+
 const title = document.querySelector("h1");
 title.textContent = siteContent["cta"]["h1"];
 
@@ -93,3 +94,13 @@ bonusBar.style.margin = "auto";
 
 const webBody = document.querySelector('body');
 webBody.appendChild(bonusBar);
+
+
+const banner = document.createElement("div");
+banner.textContent = "^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^";
+banner.style.color = "dodgerblue";
+banner.style.width = "880px";
+banner.style.marginLeft = "18%";
+banner.style.backgroundColor = "black";
+
+webBody.prepend(banner);
