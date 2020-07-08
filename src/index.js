@@ -85,3 +85,11 @@ subHeaderContent[8].textContent = siteContent["footer"]["copyright"];
 
 const midImg = document.getElementById("middle-img");
 midImg.setAttribute('src', siteContent["img"]["mid-page-img"]);
+
+const bonusBar = document.createElement('div');
+bonusBar.textContent = "We append all bonus content,because to prepend would be rude!";
+bonusBar.style.width = "880px";
+bonusBar.style.margin = "auto";
+
+const webBody = document.querySelector('body');
+webBody.appendChild(bonusBar);
