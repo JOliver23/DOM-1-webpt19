@@ -68,3 +68,13 @@ subHeaders[3].textContent = siteContent["main-content"]["product-h4"];
 subHeaders[4].textContent = siteContent["main-content"]["vision-h4"];
 subHeaders[5].textContent = siteContent["contact"]["contact-h4"];
 
+let subHeaderContent = document.getElementsByTagName("p");
+subHeaderContent[0].textContent = siteContent["main-content"]["features-content"];
+subHeaderContent[1].textContent = siteContent["main-content"]["about-content"];
+subHeaderContent[2].textContent = siteContent["main-content"]["services-content"];
+subHeaderContent[3].textContent = siteContent["main-content"]["product-content"];
+subHeaderContent[4].textContent = siteContent["main-content"]["vision-content"];
+subHeaderContent[5].textContent = siteContent["contact"] ["address"];
+subHeaderContent[6].textContent = siteContent["contact"] ["phone"];
+subHeaderContent[7].textContent = siteContent["contact"] ["email"];
+subHeaderContent[8].textContent = siteContent["footer"]["copyright"];
