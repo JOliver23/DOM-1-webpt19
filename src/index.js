@@ -55,6 +55,17 @@ navBar.forEach(link => {
   link.style.color = "green";
 });
 
+let newLink1 = document.createElement('a');
+newLink1.textContent = 'Prepend';
+newLink1.style.padding = '2rem';
+
+let newLink2 = document.createElement('a');
+newLink2.textContent = 'append';
+newLink2.style.padding = '2rem';
+
+navBar[5].appendChild(newLink2);
+navBar[0].prepend(newLink1);
+
 
 const title = document.querySelector("h1");
 title.textContent = siteContent["cta"]["h1"];
